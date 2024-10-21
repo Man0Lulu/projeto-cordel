@@ -1,5 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
 a{
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     color: rgb(197, 135, 55);
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
